@@ -23,13 +23,12 @@
 		<label for="gender_f">Female</label>
 		<br>
 		<label for="Cars">Car Brands</label>
-		<select for="Cars" id="Cars" name="cars" >
-			<option value="" selected disabled>--Please choose an option--</option>
-			<option value="BMW" >BMW</option >
-			<option value="Audi">Audi</option>
-			<option value="Merc">Merc</option>
-			
-		</select>
+		<label for="cars">Choose a car:</label>
+  <select id="cars">
+	   <option value="" disabled selected>Select an option</option>
+    <option value="volvo">Volvo</option>
+    <option value="bmw">BMW</option>
+  </select>
 		<br>
 		<label for="age">Age</label>
 		<input type="date" name="age" id="age" placeholder="Age" required/>
@@ -45,6 +44,8 @@
 		<br>
 		<label for="tos">I agree to the TOS</label>
 		<input type="checkbox" id="tos" required/>
+		<br>
+		<button type="submit">Submit</button>
 	</form> 
     <script type="text/javascript" src="./script.js">
 </script>
